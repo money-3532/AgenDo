@@ -1,0 +1,152 @@
+/* AgenDo 设计变量 —— 数值全部取自 ardot 设计稿节点实际样式（文件内无 variables / shared styles） */
+:root {
+  /* 字体 */
+  --font-family-base: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system,
+    'Segoe UI', sans-serif;
+  --font-size-9: 9px;
+  --font-size-10: 10px;
+  --font-size-11: 11px;
+  --font-size-12: 12px;
+  --font-size-13: 13px;
+  --font-size-14: 14px;
+  --font-size-15: 15px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-21: 21px;
+  --font-size-22: 22px;
+  --font-size-24: 24px;
+  --font-size-26: 26px;
+  --font-size-40: 40px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --line-height-base: 1.5;
+  --line-height-slogan: 56px;
+  --line-height-subtitle: 24px;
+
+  /* 基础色 */
+  --color-bg-page: #f7f9fc;
+  --color-bg-sidebar: #f0f4f9;
+  --color-bg-card: #ffffff;
+  --color-bg-cell: #fcfdfe;
+  --color-bg-input: #f9fbfd;
+  --color-bg-weekend: #fafbfd;
+  --color-bg-hover: #f7f9fc;
+  --color-bg-active: #f0f5fc;
+  --color-bg-today: #f4f8fd;
+
+  --color-border: #e5eaf0;
+  --color-border-input: #dde6f0;
+  --color-border-today: #b5c9df;
+  --color-border-selected: #adc4df;
+
+  --color-text-primary: #28384b;
+  --color-text-secondary: #778596;
+  --color-text-muted: #a8b2c0;
+  --color-text-strong: #416486;
+  --color-text-link: #4b719c;
+  --color-text-inverse: #ffffff;
+
+  /* 品牌 */
+  --color-brand: #55789e;
+  --color-brand-nav: #55788e;
+  --color-brand-login: #5578a0;
+  --color-brand-navy: #294261;
+  --color-brand-gradient-start: #54789e;
+  --color-brand-gradient-end: #294261;
+
+  /* 标签色（文字 / 背景） */
+  --color-tag-blue-text: #4b719c;
+  --color-tag-blue-bg: #e8f0fa;
+  --color-tag-green-text: #5f8774;
+  --color-tag-green-bg: #eaf2ee;
+  --color-tag-amber-text: #a4864f;
+  --color-tag-amber-bg: #faf2e3;
+  --color-tag-purple-text: #84729e;
+  --color-tag-purple-bg: #f0edf7;
+  --color-tag-neutral-text: #778596;
+  --color-tag-neutral-bg: #f7f9fc;
+
+  /* 进度 */
+  --color-progress-track: #edf1f5;
+  --color-progress-fill: #acc0d4;
+  --color-progress-fill-late: #cedbe7;
+  --color-progress-summary-track: #d8e3ef;
+  --color-progress-summary-fill: #55789e;
+
+  /* 功能色 */
+  --color-ai-dot: #4fb6ff;
+  --color-ai-button-bg: #e9eff6;
+  --color-ai-button-text: #47617d;
+  --color-overview-bg: #edf3f9;
+  --color-view-switch-bg: #edf1f6;
+  --color-nav-active-bg: #e0e9f3;
+  --color-nav-active-bg-collapsed: #e7eff8;
+  --color-theme-switch-bg: #e6ecf3;
+  --color-mask: rgba(39, 59, 84, 0.16);
+  --color-queued-dot: #c3cbd6;
+  --color-queued-text: #424f60;
+  --color-step-pending-bg: #fffcf6;
+  --color-step-pending-border: #e9d6af;
+  --color-chip-neutral-bg: #f1f4f8;
+
+  /* 间距 */
+  --space-1: 1px;
+  --space-2: 2px;
+  --space-3: 3px;
+  --space-4: 4px;
+  --space-5: 5px;
+  --space-6: 6px;
+  --space-7: 7px;
+  --space-8: 8px;
+  --space-9: 9px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-13: 13px;
+  --space-14: 14px;
+  --space-15: 15px;
+  --space-16: 16px;
+  --space-18: 18px;
+  --space-20: 20px;
+  --space-22: 22px;
+  --space-24: 24px;
+  --space-26: 26px;
+  --space-28: 28px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-52: 52px;
+  --space-64: 64px;
+  --space-72: 72px;
+  --space-80: 80px;
+
+  /* 圆角 */
+  --radius-2: 2px;
+  --radius-3: 3px;
+  --radius-4: 4px;
+  --radius-5: 5px;
+  --radius-6: 6px;
+  --radius-7: 7px;
+  --radius-8: 8px;
+  --radius-10: 10px;
+  --radius-12: 12px;
+  --radius-14: 14px;
+  --radius-16: 16px;
+  --radius-full: 100px;
+
+  /* 尺寸 */
+  --sidebar-width: 280px;
+  --sidebar-collapsed-width: 64px;
+  --topbar-height: 88px;
+  --toolbar-height: 40px;
+  --drawer-width: 360px;
+  --hover-preview-width: 196px;
+  --ai-card-width: 320px;
+  --weekday-height: 34px;
+  --cell-date-size: 24px;
+  --cell-chip-height: 22px;
+
+  /* 阴影 */
+  --shadow-drawer: -8px 0 24px rgba(39, 59, 84, 0.082);
+  --shadow-hover: 0 8px 20px -2px rgba(38, 61, 89, 0.16);
+  --shadow-ai: 0 8px 22px rgba(15, 41, 69, 0.12);
+}
